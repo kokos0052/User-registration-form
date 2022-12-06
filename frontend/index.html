@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма регистрации</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <span>Заполните форму</span>
+        <div class="form-item">
+          <label for="input1">Фамилия</label>
+          <input id="input1" placeholder="Фамилия" />
+        </div>
+        <div class="form-item">
+          <label for="input2">Имя</label>
+          <input id="input2" placeholder="Имя" />
+        </div>
+        <div class="form-item">
+          <label for="input3">Отчество</label>
+          <input id="input3" placeholder="Отчество" />
+        </div>
+        <div class="form-item">
+          <label for="input4">Телефон</label>
+          <input
+            id="input4"
+            type="number"
+            placeholder="Телефон"
+          />
+        </div>
+        <div class="form-item">
+          <label for="input5">Обращение</label>
+          <textarea id="input5" placeholder="Обращение"></textarea>
+        </div>
+        <div class="form-item">
+          <button id="send-button">Отправить</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
